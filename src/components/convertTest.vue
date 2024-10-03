@@ -8,6 +8,7 @@
                         <td>Weight Per Capsule</td>
                         <td>KG</td>
                         <td></td>
+                        <td></td>
                         <td>Each</td>
                     </tr>
                 </thead>

@@ -6,9 +6,11 @@
         <td>
             <input type="number" class="form-control" v-model="valueInKG" />
         </td>
-        <td>
+        <td class="text-nowrap">
             <button type="button" class="btn btn-primary btn-sm" @click="convertToEach">KG to each</button>
-            <button type="button" class="ms-1 btn btn-primary btn-sm" @click="convertToKG">each to KG</button>
+        </td>
+        <td class="text-nowrap">
+            <button type="button" class="btn btn-primary btn-sm" @click="convertToKG">each to KG</button>
         </td>
         <td>
             <input type="number" class="form-control" v-model="valueInEach" />
